@@ -23,7 +23,7 @@ namespace AbdoZBakery.Controllers
         {
             var piesListVM = new PiesListViewModel();
             piesListVM.PieList = _pieRepository.AllPies;
-            piesListVM.CurrentCategory = "CheeseCakes";
+            piesListVM.CurrentCategory = "Cheese cakes";
             return View(piesListVM);
         }
     }
